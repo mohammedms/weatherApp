@@ -1,0 +1,5 @@
+example/app/WeatherResult.class
+example/app/WeatherApp.class
+example/app/WeatherForm.class
+example/app/WeatherAppController.class
+example/app/WeatherMvcConfig.class
