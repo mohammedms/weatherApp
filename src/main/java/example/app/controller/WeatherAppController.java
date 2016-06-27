@@ -41,7 +41,7 @@ public class WeatherAppController {
 	}
 	  
 	@RequestMapping(value = "/weather", method = RequestMethod.POST)
-	public String weatherResult(@ModelAttribute(FORM_WEATHER) WeatherForm form, ModelMap model) {
+	public String weatherResult(final @ModelAttribute(FORM_WEATHER) WeatherForm form, final ModelMap model) {
 		
 		WeatherResult result = null;
 		if (StringUtils.isEmpty(form.getCityName().trim()) == false) {
