@@ -54,4 +54,12 @@ public final class WeatherResult {
 	private double kelvinToFahrenheit(final double degreeKelvin) {
 		return (((degreeKelvin - 273.15) * 9.0/5.0) + 32.0);
 	}
+	
+	@Override
+	public String toString() {
+		return "cityName(" + this.cityName 
+				+ ") weatherSummary(" + this.weatherSummary 
+				+ ") tempertureInKelvin (" + this.tempertureInKelvin + ")"
+				;
+	}
 }
