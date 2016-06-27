@@ -8,6 +8,11 @@ import org.junit.Test;
 
 import example.app.bean.WeatherResult;
 
+/**
+ * JUnit testing of {@link WeatherResult}
+ * 
+ * @author mo
+ */
 public class WeatherResultTest {
 
 	private WeatherResult weatherResult;
