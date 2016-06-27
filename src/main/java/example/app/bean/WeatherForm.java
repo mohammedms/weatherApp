@@ -1,7 +1,7 @@
-package example.app;
+package example.app.bean;
 
 /**
- * Weather App form data.
+ * Weather App Form data.
  * 
  * @author mo
  */
